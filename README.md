@@ -4,11 +4,11 @@ Dieses Projekt beinhaltet alle Praktischen Übungen des Kurses Internetdatenbank
 
 ## Ziele der Vorlesung:
 - Technologische Grundlagen webbasierter Informationssysteme.
-− Die Studierenden sind in der Lage, webbasierte Informationssysteme unter Einsatz von Web-Frameworks produktiv zu erstellen.
-− Objektrelationales Mapping
-− Webprogrammierung (aktuell Servlets)
-− Webframeworks (aktuell JSF)
-− Aktuelle Themen Data on the Web
+- Die Studierenden sind in der Lage, webbasierte Informationssysteme unter Einsatz von Web-Frameworks produktiv zu erstellen.
+- Objektrelationales Mapping
+- Webprogrammierung (aktuell Servlets)
+- Webframeworks (aktuell JSF)
+- Aktuelle Themen Data on the Web
 
 ## Themanbereiche:
 1. Motivation Data on the Web
