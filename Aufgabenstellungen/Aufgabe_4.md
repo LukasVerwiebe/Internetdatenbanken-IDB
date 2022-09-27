@@ -65,7 +65,7 @@ Bevor die Artikel einer ausgewählten Kategorie ermittelt werden kann, müssen w
 
 Passen Sie im Anzeige-Servlet des Servlet-Projekts zunächst die Anker-Tags der Kategorieeinträge dahingehend an, dass die angezeigten Kategorien anklickbar werden und einen entsprechender GET-Request auf das ControllerServlet absetzen können. Ein solcher Request soll die jeweilige Kategorie-Identität als Parameter mitliefern und als Ergebnis dem folgende Muster entsprechen:
 
-<a href= "ControllerServlet?katkuerzel=SCH">Schuhe<a>
+"<a href= "ControllerServlet?katkuerzel=SCH">Schuhe<a>"
   
 Erweitern Sie das Controller-Servlet um die notwendige Geschäftslogik zur Verarbeitung dieser Requests und der Aufbereitung der zur ausgewählten Kategorie zugehörigen
 Artikel im Request-Scope. Übergeben Sie die selektierten Artikel und die ausgewählte Kategorie über die Objektablage des Request-Scopes.
