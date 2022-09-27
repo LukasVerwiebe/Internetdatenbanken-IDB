@@ -97,6 +97,28 @@ Von nun an können wir den Fokus ganz auf die Anwendung der Jakarta Persistence 
 
 Dies soll auf Seiten der Main-Klasse des ausführbaren Projekts über eigens dafür deklarierte statische Methoden erfolgen, die bei Bedarf passend in die main-Methode eingebunden werden; jeder Arbeitsschritt soll in eine neue Methodenimplementierung führen. Auf Seiten der Datenzugriffsklasse soll so nach und nach die  Datenzugriffsschnittstelle entstehen, so dass sie der Geschäftslogik bestmöglich zuarbeitet.
 
+(a) Anlegen eines leeren Katalogs Ein leerer Katalog reduziert sich auf seine Kategorien. Artikel sind noch nicht vorhanden. Um also einen leeren Katalog anzulegen, müssen wir nur seinen Kategoriebestand definieren. Hier dürfen Sie ruhig kreativ sein! Schreiben Sie eine Methode in Ihrem ausführbaren Projekt, das die Geschäftslogik
+liefert, mindestens sechs verschiedene Kategorien in die Datenbank zu schreiben. Erweitern Sie dabei die Datenzugriffsklasse um die benötigte Datenzugriffslogik.
 
+Hinweis: Berücksichtigen Sie dabei die zwingend notwendige Transaktionsverwaltung!
 
+(b) Füllen des Katalogs mit Artikeln Da der leere Katalog nun erstellt ist, wollen wir ihn mit Artikel füllen. Dabei sollte jeder Kategorie mindestens zwei Artikel zugeordnet werden. Um dies tun zu können, muss die betreffende Kategorie zunächst z.B. über seinen Schlüssel gefunden worden sein. Bei der Artikel-Schaffung können Sie Ihrer Kreativität wieder freien Lauf lassen.
 
+Schreiben Sie eine weitere Methode in Ihrem ausführbaren Projekt, das die Geschäftslogik liefert, jeder Kategorie mindestens zwei Artikel zuzuordnen und in die Datenbank zu schreiben. Erweitern Sie dabei die Datenzugrisklasse um die benötigte Datenzugriffslogik.
+
+Hinweis: Berücksichtigen Sie dabei wieder die zwingend notwendige Transaktionsverwaltung!
+
+(c) Gezieltes Selektieren von Artikeln Nun wollen wir den frisch erstellten Artikelkatalog nutzen, um gezielt Artikel zu selektieren. Dazu soll im wesentlichen das Konzept der Jakarta Persistence Query Language (JPQL) zum Einsatz kommen.
+
+Schreiben Sie eine Methode in Ihrem ausführbaren Projekt, das die Geschäftslogik liefert, die nachfolgenden Abfragen auszuführen und die Ergebnisse in System.out zu
+schreiben. Erweitern Sie wie gehabt dabei die Datenzugriffsklasse um die benötigte Datenzugriffslogik.
+
+- Finden Sie alle Artikel (artNr, name, preis), die mit "A" beginnen.
+- Finden Sie den teuersten Artikel (artNr, name, preis).
+- Finden Sie für alle Kategorien (name) die jeweils zugehörigen Artikel (artNr, name, preis) und geben Sie das Ergebnis entsprechend strukturiert aus.
+
+(d) Löschen des Artikelkatalogs Nun ist es an der Zeit, den Artikelkatalog wieder zu löschen. Der Katalog lässt sich ja jederzeit über die im Rahmen der Arbeitsschritte 1 und 2 erarbeiteten Geschäftsmethoden wieder neu anlegen. Berücksichtigen Sie bei dem Löschvorgang Abhängigkeiten zwischen Artikel und Kategorien.
+
+Schreiben Sie eine Methode in Ihrem ausführbaren Projekt, das die Geschäftslogik liefert, alle Artikel und Kategorien zu löschen. Erweitern Sie dabei die Datenzugriffsklasse um die benötigte Datenzugriffslogik.
+
+Hinweis: Berücksichtigen Sie dabei wieder die zwingend notwendige Transaktionsverwaltung!
