@@ -2,6 +2,9 @@
 
 Dieses Projekt beinhaltet alle Praktischen Übungen des Kurses Internetdatenbanken (IDB). Dabei wurden nur die Aufgaben welche die Bearbeitung in SQL oder Java voraussetzten hochgeladen.
 
+## Hinweis zu den Aufgaben:
+Die Aufgaben sollten in drei Projekten IDB-Praktikum-JPA-Entities, IDB-Praktikum-JPA-Phase und IDB-Praktikum-Servlet-Phase umgesetzt werden. Die Aufgabestellungen wurden in einem seperaten Ordner gespeichert.
+
 ## Ziele der Vorlesung:
 - Technologische Grundlagen webbasierter Informationssysteme.
 - Die Studierenden sind in der Lage, webbasierte Informationssysteme unter Einsatz von Web-Frameworks produktiv zu erstellen.
