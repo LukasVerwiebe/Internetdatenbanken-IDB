@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="IDB-Praktikum-Web-AppPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        
+        <!-- Verknuepfung mit Datenquelle unter dem angegeben Namen -->
+        <non-jta-data-source>java:app/jdbc/idb_ds</non-jta-data-source>
+        
+        <!-- Entitaetsklassen aus dem Projekt JPA-Praktikum-JPA-Entities -->
+        <class>edu.whs.idb.praktikum.entities.Artikel</class>
+        <class>edu.whs.idb.praktikum.entities.Bestelldetails</class>
+        <class>edu.whs.idb.praktikum.entities.Bestellung</class>
+        <class>edu.whs.idb.praktikum.entities.Kategorie</class>
+        <class>edu.whs.idb.praktikum.entities.Kunde</class>
+    </persistence-unit>
+</persistence>

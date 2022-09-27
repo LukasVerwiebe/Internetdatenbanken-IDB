@@ -1,0 +1,8 @@
+edu\whs\idb\praktikum\entities\Bestelldetails.class
+edu\whs\idb\praktikum\entities\Kategorie.class
+edu\whs\idb\praktikum\dao\Datenzugriffsobjekt.class
+edu\whs\idb\praktikum\entities\Kunde.class
+edu\whs\idb\praktikum\dao\exception\InputException.class
+edu\whs\idb\praktikum\entities\Artikel.class
+edu\whs\idb\praktikum\entities\Bestellung.class
+edu\whs\idb\praktikum\entities\BestelldetailsKey.class
