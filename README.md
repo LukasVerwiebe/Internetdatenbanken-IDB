@@ -1,6 +1,6 @@
 # Internetdatenbanken-IDB
 
-Dieses Projekt beinhaltet alle Praktischen Übungen des Kurses Internetdatenbanken (IDB). Dabei wurden nur die Aufgaben welche die Bearbeitung in SQL oder Java voraussetzten hochgeladen.
+Dieses Projekt beinhaltet alle praktischen Übungen des Kurses Internetdatenbanken (IDB). Dabei wurden nur die Aufgaben welche die Bearbeitung in SQL oder Java voraussetzten hochgeladen.
 
 ## Hinweis zu den Aufgaben:
 Die Aufgaben sollten in drei Projekten IDB-Praktikum-JPA-Entities, IDB-Praktikum-JPA-Phase und IDB-Praktikum-Servlet-Phase umgesetzt werden. Die Aufgabestellungen wurden in einem seperaten Ordner gespeichert.
